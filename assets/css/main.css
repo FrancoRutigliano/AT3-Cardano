@@ -219,7 +219,7 @@ body {
 }
 
 .gradientbg {
-  background: linear-gradient(-950deg, #00123b 0%, #0033AD 50%, #0639b0 100%);
+  background: linear-gradient(-950deg, #021951 0%, #0033AD 50%, #0639b0 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
 }
@@ -1996,7 +1996,7 @@ input[type="button"],
 button,
 .button {
 	
-	background: linear-gradient(-950deg, #00123b 0%, #0033AD 50%, #0639b0 100%);
+	background: linear-gradient(-950deg, #021951 0%, #0033AD 50%, #0639b0 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
   color:white !important;
@@ -3277,7 +3277,7 @@ section {
 }
 
 #header.alt {
-	padding: 7em 5em 4em 5em;
+	padding: 10px;
 }
 
 #header.alt h1 {
@@ -3497,7 +3497,7 @@ body.is-preload #header.alt .logo {
 	background-color: rgba(222, 222, 222, 0.25);
 }
 #nav ul li a.active {
-	background: linear-gradient(-950deg, #00123b 0%, #0033AD 50%, #0639b0 100%);
+	background: linear-gradient(-950deg, #021951 0%, #0033AD 50%, #0639b0 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
 	box-shadow: none;
@@ -3919,6 +3919,14 @@ body.is-preload #header.alt .logo {
 	text-align: center;
 }
 
+
+/* Personalizados */
+
+
+.mostrarSmartPhone {
+	display: none !important;
+}
+
 @media screen and (max-width: 1280px) {
 
 	#footer {
@@ -3928,7 +3936,30 @@ body.is-preload #header.alt .logo {
 }
 
 @media screen and (max-width: 980px) {
+.gradientbg{
+	margin: 0px 0px 30px 0px !important;
+}
 
+.titleResponsive {
+	flex:auto !important;
+}
+
+.titleResponsive img {
+
+	max-width: 40px !important;
+}
+
+	.responsive {
+		width: 40vw !important; 
+		height: 40vw !important;
+	}
+	.ocultarSmartPhone {
+		display: none !important;
+	}
+	.mostrarSmartPhone {
+		display: inline-block !important;
+	}
+	
 	#footer {
 		padding: 4em 3em 2em 3em;
 		display: block;
