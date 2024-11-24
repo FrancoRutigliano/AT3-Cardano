@@ -219,7 +219,7 @@ body {
 }
 
 .gradientbg {
-  background: linear-gradient(-950deg, #0C36A2 0%, rgb(30, 35, 131) 50%, #5371C5 100%);
+  background: linear-gradient(-950deg, #00123b 0%, #0033AD 50%, #0639b0 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
 }
@@ -367,7 +367,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 
 h3 {
@@ -1995,7 +1995,8 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-	background: linear-gradient(-950deg, #0C36A2 0%, rgb(30, 35, 131) 50%, #5371C5 100%);
+	
+	background: linear-gradient(-950deg, #00123b 0%, #0033AD 50%, #0639b0 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
   color:white !important;
@@ -2425,11 +2426,9 @@ input[type="radio"]:focus+label:before {
 }
 
 .icon.major {
-	border: solid 1px;
 	display: inline-block;
 	border-radius: 100%;
-	padding: 0.65em;
-	margin: 0 0 2em 0;
+		margin: 0 0 2em 0;
 	cursor: default;
 }
 
@@ -2813,7 +2812,8 @@ header.major {
 }
 
 header.major h2 {
-	font-size: 2em;
+	font-size: 2.3em;
+	font-weight: 900;
 }
 
 header.major h2:after {
@@ -3180,7 +3180,7 @@ table.alt tbody tr td {
 	display: inline-block;
 	margin-left: 4em;
 	padding:5px;
-	background: linear-gradient(-950deg, #fff 0%, #1F6FCD 50%, #fff 100%);
+	background: linear-gradient(-950deg, #fff 0%, #0033AD 50%, #fff 100%);
   	background-size: 200% 200%; 
   	animation: gradientAnimation 6s ease infinite; 
 	border-radius: 100%;
@@ -3313,6 +3313,7 @@ section {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
+	width: 600px;
 
 }
 
@@ -3495,9 +3496,8 @@ body.is-preload #header.alt .logo {
 #nav ul li a:hover {
 	background-color: rgba(222, 222, 222, 0.25);
 }
-
 #nav ul li a.active {
-	background: linear-gradient(-950deg, #0C36A2 0%, rgb(30, 35, 131) 50%, #5371C5 100%);
+	background: linear-gradient(-950deg, #00123b 0%, #0033AD 50%, #0639b0 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
 	box-shadow: none;
@@ -3753,9 +3753,8 @@ body.is-preload #header.alt .logo {
 #main dl dt {
 	color: #000000;
 }
-
 #main header.major h2:after {
-	background: linear-gradient(-950deg, #fff 0%, rgb(30, 35, 131) 50%, #fff 100%);
+	background: linear-gradient(-950deg, #fff 0%, #0033AD 50%, #fff 100%);
   background-size: 200% 200%; 
   animation: gradientAnimation 6s ease infinite; 
 }
@@ -3906,7 +3905,7 @@ body.is-preload #header.alt .logo {
 	margin: 0 0 3em -2em;
 }
 .logo-footer img {
-	width:250px
+	width:300px
 }
 #footer>* {
 	width: calc(50% - 2em);
