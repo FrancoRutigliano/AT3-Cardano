@@ -4026,3 +4026,47 @@ body.is-preload #header.alt .logo {
 	}
 
 }
+
+.card {
+	margin: 1.25rem 2.5rem; /* mx-10 my-5 */
+	overflow: hidden;
+	border-radius: 0.75rem; /* rounded-lg */
+	box-shadow: 0 0 0 1px rgba(229, 231, 235, 1); /* shadow */
+	transition: box-shadow 0.3s ease; /* transition */
+	width: 12rem;
+	height: 17rem;
+	border: 1px solid #0235AE; /* border border-b-celeste */
+  }
+  
+  .card:hover {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* hover:shadow-lg */
+  }
+  .card-img-container{
+	padding: 0;
+  margin: 0; 
+}
+  .card-img {
+	padding-bottom: 0px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+  }
+  
+  .card-content {
+	height: 100%;
+	
+  }
+  
+  .card-title {
+	margin-top: 0.125rem; /* mt-0.5 */
+	font-size: 1.125rem; /* text-lg */
+	color: #60a5fa; /* text-celeste */
+  }
+  
+  .card-description {
+	margin-top: 0.5rem; /* mt-2 */
+	font-size: 0.875rem; /* text-sm */
+	color: #6b7280; /* text-dark-light */
+	line-height: 1.5; /* line-clamp-3 equivalent */
+  }
+  
