@@ -4027,6 +4027,15 @@ body.is-preload #header.alt .logo {
 
 }
 
+
+.team-cards-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* background-color: coral; */
+}
+
+
 .card {
 	margin: 1.25rem 2.5rem; /* mx-10 my-5 */
 	overflow: hidden;
