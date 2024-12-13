@@ -4107,9 +4107,11 @@ body.is-preload #header.alt .logo {
 	height: 100%;
 	/* background-color: green; */
 }
-/* .card-content-news{
-	padding-bottom: 50px;
-} */
+.card-news-title{
+	padding: 10px;
+}
+
+
 
 .card-title, .card-news-title {
 	margin-top: 0.125rem;
@@ -4143,7 +4145,9 @@ body.is-preload #header.alt .logo {
 		width: 10rem;
 		height: 15rem;
 	}
-	
+	.card-news-title{
+		font-size: 1rem;
+	}
 
 }
 
