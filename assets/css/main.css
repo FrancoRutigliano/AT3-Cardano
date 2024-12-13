@@ -3506,7 +3506,13 @@ body.is-preload #header.alt .logo {
 	box-shadow: none;
 	color: white;
 }
-
+#nav-news ul li a.active {
+	background: linear-gradient(-950deg, #021951 0%, #0033AD 50%, #0639b0 100%);
+	background-size: 200% 200%;
+	animation: gradientAnimation 6s ease infinite;
+	box-shadow: none;
+	color: white;
+} 
 #nav.alt {
 	position: fixed;
 	top: 0;
