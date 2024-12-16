@@ -4094,13 +4094,19 @@ body.is-preload #header.alt .logo {
 	padding: 0;
 	margin: 0;
 }
-@media (min-width: 958px) {
+/* @media (max-width: 957px){
+	.card-img-container-news{
+		height: 200px;
+	}
+	} */
+/* @media (min-width: 958px) {
 	.card-img-container-news{
 			height: 200px;
 	}
-
+} */
+	.card-img-container-news{
+			height: 200px;
 }
-
 .card-img {
 	padding-bottom: 0px;
 	height: 100%;
