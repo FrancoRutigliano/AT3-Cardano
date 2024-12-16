@@ -4108,7 +4108,9 @@ body.is-preload #header.alt .logo {
 	object-fit: cover;
 
 }
-
+.card-linkedin-image-containter img{
+	width: 1.5rem
+}
 .card-content, .card-content-news {
 	height: 100%;
 	/* background-color: green; */
@@ -4127,6 +4129,7 @@ body.is-preload #header.alt .logo {
 	color: #60a5fa;
 	/* text-celeste */
 }
+
 .card-news-title{
 	font-size: 1.2rem;
 	/* font-weight: 400; */
@@ -4142,6 +4145,8 @@ body.is-preload #header.alt .logo {
 	/* line-height: 1.5; */
 	/* line-clamp-3 equivalent */
 	font-weight: 400;
+	margin-bottom: 10px;
+
 }
 
 
@@ -4149,12 +4154,17 @@ body.is-preload #header.alt .logo {
 
 	.card {
 		width: 10rem;
-		height: 15rem;
+		height: 16.5rem;
 	}
 	.card-news-title{
 		font-size: 1rem;
 	}
-
+	.card-description{
+		margin-bottom: 4px;
+	}
+	.card-linkedin-image-containter img {
+		width: 1.3rem;
+	}
 }
 
 
