@@ -4174,6 +4174,10 @@ body.is-preload #header.alt .logo {
 }
 
 
+.ctn-atomicCoin-about{
+	
+}
+
 footer {
     background: linear-gradient(to bottom, #222, #444);
     color: white;
@@ -4182,7 +4186,7 @@ footer {
 .footer-section {
     margin: 10px;
     padding: 10px;
-    flex: 1 1 300px; /* Flexible para adaptarse al espacio disponible */
+    flex: 1 1 300px;
     max-width: 500px;
 }
 
